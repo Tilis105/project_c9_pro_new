@@ -9,7 +9,12 @@ function setup() {
 function draw() 
 {
 
-  // escreva o código para alterar a cor de fundo 
+  // escreva o código para alterar a cor de fundo
+  if (keyIsDown(RIGHT_ARROW)) 
+  {
+    background("red");
+    
+  }
   // para vermelho quando a seta para direita (RIGHT_ARROW) for pressionada
   
   
